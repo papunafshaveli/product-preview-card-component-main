@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+.mainimage-desktop{
+    display: none;
+}
+
+body{
+    width: 375px;
+    box-sizing: border-box;
+    background-color: #F2EAE2;
+    margin: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+}
+
+.mainimage{
+    width: 343px;
+    background-color: aqua;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 24px;
+}
+
+.perfume{
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 5px;
+    text-align: left;   
+}
+
+.gabrielle{
+    margin-top: 12px;
+    color: #1C232B;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.maintext{
+    margin-top: 16px;
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.price{
+    margin-top: 24px;
+    color: #3D8168;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.oldprice{
+    margin-left: 145px;
+    margin-top: -25px;
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration-line: line-through;
+
+}
+
+.buy{
+    background-color: #3D8168;
+    color: white;
+    border: none;
+    height: 48px;
+    width: 295px;
+   margin-top: 20px;
+    border-radius: 8px;
+
+
+}
+
+@media screen and (min-width:1440px) {
+
+    .mainimage{
+        display: none;
+    }
+
+    body{display: flex;
+        width: 1440px;
+        box-sizing: border-box;
+        background-color: #F2EAE2;
+        margin: auto;
+    }
+    
+    .mainimage-desktop{
+        margin-top: 175px;
+        margin-left: 420px;
+        display: block;
+        width: 300px;
+        height: 450px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    
+    .content{
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-top: 175px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        padding: 32px;
+        width: 300px;
+        height: 450px;
+    }
+    
+    .perfume{
+        color: #6C7289;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 5px;
+        text-align: left;   
+    }
+    
+    .gabrielle{
+        margin-top: 20px;
+        color: #1C232B;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .maintext{
+        margin-top: 24px;
+        color: #6C7289;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .price{
+        margin-top: 29px;
+        color: #3D8168;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .oldprice{
+        margin-left: 145px;
+        margin-top: -25px;
+        color: #6C7289;
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-decoration-line: line-through;
+    
+    }
+    
+    .buy{
+        background-color: #3D8168;
+        color: white;
+        border: none;
+        height: 48px;
+        width: 236px;
+       margin-top: 20px;
+        border-radius: 8px;
+    
+    
+    }
+}
